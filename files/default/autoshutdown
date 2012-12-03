@@ -1,2 +1,2 @@
-* * * * * root /usr/local/bin/autoshutdown.sh
+*/5 * * * * root /usr/local/bin/autoshutdown.sh
  
