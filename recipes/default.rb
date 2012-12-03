@@ -13,10 +13,10 @@
 # ENDLICENSETEXT
 
 
-cookbook_file /etc/cron.d/autoshutdown do
+cookbook_file "/etc/cron.d/autoshutdown" do
   source "autoshutdown"
 end
 
-cookbook_file /usr/local/bin/autoshutdown.sh do
+cookbook_file "/usr/local/bin/autoshutdown.sh" do
   source "autoshutdown.sh"
 end
