@@ -19,4 +19,5 @@ end
 
 cookbook_file "/usr/local/bin/autoshutdown.sh" do
   source "autoshutdown.sh"
+  mode 0700
 end
