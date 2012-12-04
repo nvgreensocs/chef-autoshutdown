@@ -11,8 +11,8 @@ RUNNING=$(ps aux | awk '{print $1}' | grep vagrant | wc -l)
 
 if (( TENOLD > LAST )) ; then 
   if (( RUNNING == 0 )) ; then 
-      shutdown -P
-#    echo "SHUDOWN!" >> /vagrant/shutdown.log
+    echo "SHUDOWN!" >> /vagrant/shutdown.log
+      shutdown -P now
   fi
 fi
 
